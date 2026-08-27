@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Finder Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Header">    
+        <p>NUMERICAL METHODS INSTRUMENT</p>
+        <p>This website is designed to find roots of mathematical functions using various numerical methods.</p>
+        <h1>ROOT FINDER</h1>
+    </div>
+    <div class="Input">
+        <p>Function</p>
+        <p>f(x) =  </p>
+        <input type="text" id="functionInput" placeholder="Enter a function (e.g., x^2 - 4 = 0)">
+        <button id="findRootButton">Find Root</button>
+        <p id="result"></p>
+    </div>
+    <div class="Output">
+        <p>Root1:</p>
+        <p id="root1Output"></p>
+        <p>Root2:</p>
+        <p id="root2Output"></p>
+    </div>
+    <div class="Graph">
+        <canvas id="graphCanvas" width="400" height="400"></canvas>
+    </div>
+    <div class="Footer">
+        <p>Developed by: Keo Sela (Student of Data Science)</p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
